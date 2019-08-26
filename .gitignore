@@ -1,0 +1,4 @@
+__pycache__
+/data/apitoken
+log/*
+!log/._
