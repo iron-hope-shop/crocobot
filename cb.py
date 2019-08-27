@@ -1,4 +1,7 @@
-"""Crocobot
+"""
+cb.py
+
+Crocobot
 Made for #crocoducks
 
 Author: Bradley Jackson
@@ -423,6 +426,7 @@ if __name__ == "__main__":
     logger = logging.getLogger()
     logger.addHandler(logging.StreamHandler())
     rtm_client = slack.RTMClient(token=slack_token)
+    # Initialize RTM Client
     while on:
         try:
             rtm_client.start()
